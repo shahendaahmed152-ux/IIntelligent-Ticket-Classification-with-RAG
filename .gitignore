@@ -1,0 +1,27 @@
+# Models and Indexes
+models/
+*.bin
+*.pkl
+*.pt
+*.pth
+*.safetensors
+*.joblib
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Environment and Bytecode
+.env
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# RAG generated artifacts
+artifacts/**/*.faiss
+artifacts/**/*.pkl
+artifacts/**/*.index

@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+joblib
+sentence-transformers
+rank-bm25
+faiss-cpu
+groq
+python-dotenv
