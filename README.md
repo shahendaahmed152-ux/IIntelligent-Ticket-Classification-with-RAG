@@ -14,7 +14,7 @@ project/
 ├── src/               # Production source modules
 │   ├── classifier/    # Classification inference logic
 │   ├── data/          # Text cleaning and preprocessing
-│   ├── rag/           # Prompt construction and LLM pipeline
+│   ├── rag/           # Prompt construction & LLM pipeline
 │   └── retrieval/     # BM25, FAISS, RRF, and CrossEncoder reranker
 ├── requirements.txt   # Dependencies
 └── README.md
